@@ -1,0 +1,25 @@
+{
+    "libro":[
+    {
+    "titulo":"Todo de PHP",
+    "autor":"Jane Doe",
+    "editorial":"Anaya",
+    "ciudad_publicacion":"Madrid",
+    "año_publicacion":"2012"
+    },
+    {
+    "titulo":"Aplicaciones web en PHP",
+    "autor":"Anne Smith",
+    "editorial":"Garceta",
+    "ciudad_publicacion":"Madrid",
+    "año_publicacion":"2011"
+    },
+    {
+    "titulo":"Uso de Git",
+    "autor":"Jimbo Jones",
+    "editorial":"McGrawHill",
+    "ciudad_publicacion":"Barcelona",
+    "año_publicacion":"2019"
+    }
+    ]
+    }

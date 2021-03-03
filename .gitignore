@@ -1,0 +1,3 @@
+# ignoramos todos los ficheros de log
+*.log
+*.txt

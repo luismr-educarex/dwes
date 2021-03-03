@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+   <appender name="default" class="LoggerAppenderFile">
+      <!-- <layout class="LoggerLayoutSimple" /> -->
+       <param name="file" value="fichero.log" />
+       <param name="append" value="true" />
+     
+      
+       <layout class="LoggerLayoutPattern">
+           <param name="conversionPattern" value="%date{d-m-Y H:i:s,u} %logger %-5level %msg USUARIO %ses{usuario}%n" />
+       </layout>
+
+       
+     <!--
+       <layout class="LoggerLayoutHtml">
+            <param name="locationInfo" value="true" />
+        </layout>
+     -->
+     
+   </appender>
+   <root>
+       <level value="trace" />
+       <appender_ref ref="default" />
+   </root>
+</configuration>
